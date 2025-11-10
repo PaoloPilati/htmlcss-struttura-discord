@@ -5,9 +5,14 @@
 }
 
 header {
+    display: flex;
     background-color: #40f5ece3;
     height: 160px;
-    line-height: 160px;
+    flex-basis: 100vw;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
 }
 
 li {
@@ -15,25 +20,30 @@ li {
     list-style: none;
 }
 
-/* Eliminare? */
-.container {
-}
-
-
 nav ul li a {
     text-decoration: none;
     color: #000000;
 }
-/* Centratura flexbox non implementata */
+
 .flex-nav {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
     background-color: #f4b643;
+    flex-basis: 60%;
     margin: 0 4rem;
     height: 80px;
-    line-height: 160px;
+}
+
+.fn-child1 {
+    flex-basis: 20%;
+}
+
+.fn-child2 {
+    flex-basis: 60%;
+    text-align: center;
+    line-height: 80px;
     vertical-align: middle;
+}
+
+.fn-child3 {
+    flex-basis: 20%;
 }
