@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #40f5ece3;
+    height: 160px;
+    line-height: 160px;
+}
+
+li {
+    display: inline;
+    list-style: none;
+}
+
+/* Eliminare? */
+.container {
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+/* Centratura flexbox non implementata */
+.flex-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: #f4b643;
+    margin: 0 4rem;
+    height: 80px;
+    line-height: 160px;
+    vertical-align: middle;
+}
