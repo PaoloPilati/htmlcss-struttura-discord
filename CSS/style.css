@@ -37,19 +37,15 @@ nav ul li a {
 
 .flex-section {
     display: flex;
-    flex-basis: 100vw;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     align-content: center;
-    height: 400px;
 }
 
 .flex-nav {
     display: flex;
-    margin: 0 4rem;
     height: 80px;
-    flex-basis: 60%;
     justify-content: space-between;
 }
 
@@ -64,8 +60,8 @@ nav ul li a {
 }
 
 .fs1-child {
-    height: 250px;
-    width: 50%;
+    height: 300px;
+    flex-basis: 50%;
     background-color: #ee48ca;
 }
 
@@ -75,26 +71,24 @@ nav ul li a {
 
 .fs6-children {
     background-color: #00a59a;
+    border: 1px dashed #ffffff;
+    flex-basis: 10%;
 }
 .fs6-children:first-of-type {
     background-color: #ee48ca;
-}
-
-.foot-child {
-    justify-content: space-between;
-
+    flex-basis: 20%
 }
 
 .dashed {
     border: 1px dashed #000000;
 }
 
-.section-height {
-    height: 300px;
+.sec-height {
+    height: 800px;
 }
 
 .divflex-height {
-    height: 150px;
+    height: 400px;
 }
 
 .fix-fb60 {
@@ -113,6 +107,10 @@ nav ul li a {
     background-color: #0000ee;  
 }
 
+.bkg-lightblue {
+    background-color: #8fd9ee;  
+}
+
 .bkg-cream {
     background-color: #f8f1a8;
 }
@@ -122,13 +120,15 @@ nav ul li a {
 }
 
 .bkg-charcoal {
-    background-color: #131313;
+    background-color: #1a1818;
 }
 
 .bluediv {
-    background-color: #004cd8;
+    background-color: #a9e7ff;
+    flex-basis: 40%;
 }
 
 .pinkdiv {
     background-color: #ffc0cb;
+    flex-basis: 20%;
 }
