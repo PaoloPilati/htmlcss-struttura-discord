@@ -15,8 +15,6 @@ header {
     background-color: #52e0f5e3;
     height: 160px;
     width: 100vw;
-    position: fixed;
-    top: 0;
 }
 
 footer {
@@ -64,7 +62,7 @@ nav ul li a {
 
 .fs1-child {
     height: 300px;
-    flex-basis: 50%;
+    flex-basis: 40%;
     background-color: #ee48ca;
 }
 
@@ -87,7 +85,7 @@ nav ul li a {
 }
 
 .sec-height {
-    height: 800px;
+    height: 500px;
 }
 
 .divflex-height {
@@ -107,7 +105,8 @@ nav ul li a {
 }
 
 .bkg-blue {
-    background-color: #0000ee;  
+    background-color: #0000ee;
+    height: 400px;
 }
 
 .bkg-lightblue {
